@@ -5,11 +5,5 @@
   "installCommand": "npm install",
   "framework": "vite",
   "env": [],
-  "regions": ["sfo1"],
-  "maxDuration": 60,
-  "functions": {
-    "api/**/*.ts": {
-      "maxDuration": 10
-    }
-  }
+  "regions": ["sfo1"]
 }
