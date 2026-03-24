@@ -12,21 +12,24 @@ export function Navbar({ profile }: ProfileProps) {
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    console.log(`profile` + " " + profile)
 
     const templateParams = {
-      user_name: senderName,
-      user_email: senderEmail,
-      user_phone: senderPhone,
+      name: senderName,
+      time: new Date().toLocaleString(),
+      email: senderEmail,
+      phone: senderPhone,
       message: message,
       to_email: profile.email,
     };
+    console.log(templateParams)
 
     emailjs
       .send(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID || "your_service_id",
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "your_template_id",
+        "service_keh8lbe",
+        "template_oi70zrg",
         templateParams,
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "your_public_key"
+        "xb86e8epywUXODgKH"
       )
       .then(
         () => {
