@@ -99,3 +99,23 @@ npm run dev  # Start dev server at http://localhost:5173
 ## Environment Variables (If Needed Later)
 
 Settings → Environment Variables in Vercel Dashboard
+
+## EmailJS integration (no local mail app)
+
+1. Create an EmailJS account: https://www.emailjs.com/
+2. Add an email service and create a template.
+3. Get:
+   - Service ID
+   - Template ID
+   - Public key
+4. In Vercel env vars (or `.env` locally):
+   - `VITE_EMAILJS_SERVICE_ID`
+   - `VITE_EMAILJS_TEMPLATE_ID`
+   - `VITE_EMAILJS_PUBLIC_KEY`
+
+Local test:
+```bash
+npm install @emailjs/browser
+npm run dev
+```
+5. Update `/src/components/Navbar.tsx` has the EmailJS send flow and pulls the IDs from env vars.
