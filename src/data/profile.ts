@@ -82,6 +82,7 @@ export const profile: Profile = {
     "Terraform",
     "NGINX",
     "PostgreSQL",
+    "MongoDB",
     "Kafka",
     "Adobe Experience Manager (AEM)",
     "JIRA, ServiceNow, Confluence",
