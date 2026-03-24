@@ -10,7 +10,7 @@ export const profile: Profile = {
   linkedin: "linkedin.com/in/raghuveer-simhachalam-589092120",
   github: "https://github.com/ragz310",
   summary:
-    "Engineering Manager with 13+ years of experience leading high-performing engineering teams and delivering scalable, high-traffic web platforms. Expertise in cloud architecture (AWS), DevOps, and full-stack development. Proven ability to drive engineering strategy, improve productivity, and deliver reliable systems at scale aligned with business outcomes.",
+    "Lead Software Engineer with 13+ years of experience leading high-performing engineering teams and delivering scalable, high-traffic web platforms. Expertise in cloud architecture (AWS), DevOps, and full-stack development. Proven ability to drive engineering strategy, improve productivity, and deliver reliable systems at scale aligned with business outcomes.",
   metrics: [
     { label: "Years Experience", value: "13+" },
     { label: "Projects Delivered", value: "25+" },
