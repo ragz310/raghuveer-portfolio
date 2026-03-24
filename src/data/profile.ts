@@ -7,7 +7,7 @@ export const profile: Profile = {
   location: "Texas, USA",
   email: "sraghu310@gmail.com",
   phone: "+1 (951) 850-9815",
-  linkedin: "https://linkedin.com/in/raghuveer-simhachalam-589092120",
+  linkedin: "https://linkedin.com/in/raghuveer-simhachalam",
   github: "https://github.com/ragz310",
   summary:
     "Lead Software Engineer with 13+ years of experience leading high-performing engineering teams and delivering scalable, high-traffic web platforms. Expertise in cloud architecture (AWS), DevOps, and full-stack development. Proven ability to drive engineering strategy, improve productivity, and deliver reliable systems at scale aligned with business outcomes.",
